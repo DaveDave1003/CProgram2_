@@ -10,17 +10,12 @@ int main (void){
 
     for (int i = 0; i < vyska; i++){
         
-
         for (int j = 0; j <= i; j++){
             printf("*");
-
-
         }
         printf("\n");
     }
-
-    // obraceny
-    
+    // obraceny   
     for (int i = 0; i < vyska; i++){
         
         for (int j = vyska - i; j > 0; j--){
